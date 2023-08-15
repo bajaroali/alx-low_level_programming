@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - print the first 100 fibonacci numbers
+ * main - print the first 50 fibonacci numbers
  *
  * Return: Nothing.
  */
@@ -15,7 +15,7 @@ int main(void)
 	x = 0;
 	y = 1;
 
-	for (count = 1; count <= 99; count++)
+	for (count = 1; count <= 49; count++)
 	{
 		z = x + y;
 		x = y;
