@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - prints the first 98 fibonacci numbers.
+ * main - prints the first 50 fibonacci numbers.
  *
  * Return: Nothing to return.
  */
@@ -15,7 +15,7 @@ int main(void)
 	x = 0;
 	y = 1;
 
-	for (count = 1; count <= 90; count++)
+	for (count = 1; count <= 50; count++)
 	{
 		z = x + y;
 		x = y;
