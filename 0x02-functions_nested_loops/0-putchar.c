@@ -1,9 +1,23 @@
-#include <unistd.h>
+#include "main.h"
+
 /**
- * main -prints the _putchar
+ * main - Prints _putchar
+ * @void: Empty parameter list for main.
  *
- * Return 0 on success
- */int _putchar(char c)
+ * Description: Prints _putchar to  w/out stdio
+ *
+ * Return: 0 for success
+*/
+int main(void)
 {
-	return (write(1, &_putchar, 1));
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
 }
