@@ -1,25 +1,25 @@
 #include "main.h"
 
 /**
- * print_rev - print  a string in reverse, followed by a\n
+ * print_rev - print a string in reverse, followed by a \n
  * @s: string to be printed
  */
 void print_rev(char *s)
 {
-	int j, k, len;
+	int i, j, len;
 
-	j = 0;
+	i = 0;
 
-	while (s[j] != '\0')
+	while (s[i] != '\0')
 	{
 		i++;
 	}
 
-	len = j;
+	len = i;
 
-	for (k = len - 1; k >= 0; k--)
+	for (j = len - 1; j >= 0; j--)
 	{
-		_putchar(s[k]);
+		_putchar(s[j]);
 	}
 
 	_putchar('\n');
