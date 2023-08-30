@@ -1,10 +1,12 @@
 #include "main.h"
 
 /**
- * _puts_recursion - a fucntiuon that prints a string, followed by a new line
- * @s: the string to be printed
- *
- */
+ * _puts_recursion - prints a stringfollowed b a new line
+ * @s: string to print
+ * Description: print string using recursion
+ * Return: nothing
+ **/
+
 void _puts_recursion(char *s)
 {
 	int i;
@@ -19,12 +21,3 @@ void _puts_recursion(char *s)
 	else
 		_putchar('\n');
 }
-
-
-
-
-
-
-
-
-
